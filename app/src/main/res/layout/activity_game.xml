@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bada.chatandplay.GameActivity"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/linearLayout2">
+
+        <ImageView
+            android:id="@+id/Game_vschoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="117dp"
+            android:layout_weight="0.06"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <ImageView
+            android:id="@+id/Game_mychoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="104dp"
+            android:layout_weight="0.05"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/game_scissors"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/scissors"
+            android:text="Scissors" />
+
+        <Button
+            android:id="@+id/game_paper"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/paper"
+            android:text="Paper" />
+
+        <Button
+            android:id="@+id/game_rock"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="34dp"
+            android:background="@drawable/rock"
+            android:text="Rock" />
+
+    </LinearLayout>
+
+</RelativeLayout>

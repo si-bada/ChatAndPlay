@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "616227470688",
+    "firebase_url": "https://chatandplay-5ffdd.firebaseio.com",
+    "project_id": "chatandplay-5ffdd",
+    "storage_bucket": "chatandplay-5ffdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616227470688:android:88c0bf98ee2ea5c0",
+        "android_client_info": {
+          "package_name": "com.example.bada.chatandplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616227470688-d8epkcu9nlb839gg0ek4r1tjj4nltfv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bada.chatandplay",
+            "certificate_hash": "eaab958a862f699dac8772c37eb1bb6b2b73d41a"
+          }
+        },
+        {
+          "client_id": "616227470688-7bo5vuv4s14jtmsq6er3gnsuq946eh9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfRozPIcJLhPExGlrqF9UReBkIZhA14zs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616227470688-7bo5vuv4s14jtmsq6er3gnsuq946eh9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

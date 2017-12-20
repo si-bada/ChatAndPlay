@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.bada.chatandplay.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setting_image"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/bada" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/this_is_my_pseudo"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/setting_image"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv_lipsum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Hi, i'm using Chat and Play"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_change_image"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="42dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="@string/change_image"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_lipsum"
+        android:layout_alignStart="@+id/btn_change_status" />
+
+    <Button
+        android:id="@+id/btn_change_status"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="21dp"
+        android:background="@color/colorAccent"
+        android:text="@string/change_status"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textStyle="bold"
+        android:layout_below="@+id/btn_change_image"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
